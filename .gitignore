@@ -1,0 +1,8 @@
+*.py[cod]
+*.log
+__pycache__
+venv/
+
+.pytest_cache
+.vscode
+.devcontainer
