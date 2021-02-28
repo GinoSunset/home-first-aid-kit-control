@@ -14,4 +14,4 @@ if __name__ == "__main__":
     for image in os.listdir("example"):
         frame = cv2.imread(os.path.join("example", image), cv2.IMREAD_UNCHANGED)
         code = decode_image(frame)
-        print(code)
+        print(image, code)
